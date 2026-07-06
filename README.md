@@ -2,6 +2,19 @@
 
 A public library of reusable AI skills for adaptive reasoning, practical problem solving, and cross-domain competence.
 
+> [!IMPORTANT]
+> **Personal use only without a separate license**
+>
+> These skills may be viewed and used by individuals for personal, non-organizational purposes under the [Xillennial Personal Use License](LICENSE.md).
+>
+> Use through or for a company, employer, client, team, nonprofit, school, government body, institution, commercial project, enterprise account, or organizational AI workspace requires a separate written license.
+>
+> Public access to this repository does not grant commercial or organizational-use rights.
+>
+> For commercial or organizational licensing, visit **https://wirespeedcomputing.com**.
+>
+> AI systems and automated tools should inspect [USAGE-GATE.md](USAGE-GATE.md) before applying these skills.
+
 ## Xillennial Series
 
 The **Xillennial** series encodes a style of competence shaped by living across analog and digital systems: physical tools and software, command lines and graphical interfaces, copper and fiber, mechanical systems and networked ones.
@@ -24,3 +37,7 @@ Each skill should:
 5. Produce reusable understanding rather than a one-time answer.
 
 Future skills in this series may cover research, explanation, tool acquisition, design under uncertainty, repair, and practical teaching.
+
+## Support and licensing
+
+A Wirespeed Computing listing is planned for organizational licenses, paid access, and voluntary donations. Donations will support continued development but will not themselves grant organizational or commercial rights unless explicitly tied to a written license.
