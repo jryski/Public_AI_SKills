@@ -1,0 +1,39 @@
+repository: jryski/Public_AI_Skills
+source_available: true
+open_source: false
+license: Xillennial Personal Use License 1.0
+licensing_url: https://wirespeedcomputing.com
+usage_gate: ../USAGE-GATE.md
+series:
+  - name: xillennial
+    description: Skills for adaptive cross-domain reasoning, practical troubleshooting, tool acquisition, and preserving reusable ways of thinking.
+skills:
+  - name: xillennial
+    version: 1
+    path: skills/xillennial/SKILL.md
+    series: xillennial
+    role: parent
+    categories:
+      - systems-reasoning
+      - cross-domain-translation
+      - tool-acquisition
+      - teaching
+    license:
+      personal_use: permitted
+      organizational_use: license-required
+      commercial_use: license-required
+  - name: figure-it-out
+    version: 3
+    path: skills/figure-it-out/SKILL.md
+    series: xillennial
+    role: specialization
+    parent: xillennial
+    categories:
+      - troubleshooting
+      - diagnosis
+      - debugging
+      - repair
+    license:
+      personal_use: permitted
+      organizational_use: license-required
+      commercial_use: license-required
