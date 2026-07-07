@@ -26,6 +26,17 @@ It is not nostalgia and it is not a claim that one person already knows everythi
 - [`xillennial`](skills/xillennial/SKILL.md) v1: Parent skill for understanding, building, adapting, translating, and teaching across unfamiliar domains.
 - [`figure-it-out`](skills/figure-it-out/SKILL.md) v3: Diagnostic specialization for broken, stuck, inconsistent, or poorly understood systems.
 
+## Repository documents
+
+- [`LICENSE.md`](LICENSE.md): personal-use license and organizational/commercial-use restrictions.
+- [`USAGE-GATE.md`](USAGE-GATE.md): AI-readable usage gate for commercial, organizational, employer, client, and team contexts.
+- [`COMMERCIAL-LICENSING.md`](COMMERCIAL-LICENSING.md): commercial licensing overview and Wirespeed Computing contact path.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution policy and inbound rights.
+- [`CHANGELOG.md`](CHANGELOG.md): version and repository history.
+- [`docs/SKILL-SPEC.md`](docs/SKILL-SPEC.md): expected skill file format.
+- [`skills/manifest.yaml`](skills/manifest.yaml): machine-readable skill index.
+- [`examples/`](examples/): example applications of the skills.
+
 ## Series design
 
 Each skill should:
