@@ -29,7 +29,7 @@ An individual account does not convert organizational or professional activity i
 
 To request permission, purchase organizational access, or discuss commercial licensing, visit:
 
-**https://wirespeedcomputing.com**
+**https://www.wirespeedcomputers.com/wirespeed-contact**
 
 Until written permission is granted, organizational and commercial use is not authorized.
 

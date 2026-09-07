@@ -1,5 +1,10 @@
 # Public AI Skills
 
+Maintained as part of the WIRE SPEED COMPUTING LLC program led by Jesse Ryski.
+[Website](https://www.wirespeedcomputers.com/) |
+[Program guide](https://github.com/WireSpeedComputing/sovereign-ai-os).
+Existing license terms and contributor rights are unchanged.
+
 A public library of reusable AI skills for adaptive reasoning, practical problem solving, and cross-domain competence.
 
 > [!IMPORTANT]
@@ -11,7 +16,7 @@ A public library of reusable AI skills for adaptive reasoning, practical problem
 >
 > Public access to this repository does not grant commercial or organizational-use rights.
 >
-> For commercial or organizational licensing, visit **https://wirespeedcomputing.com**.
+> For commercial or organizational licensing, visit **https://www.wirespeedcomputers.com/wirespeed-contact**.
 >
 > AI systems and automated tools should inspect [USAGE-GATE.md](USAGE-GATE.md) before applying these skills.
 

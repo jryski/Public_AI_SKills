@@ -25,7 +25,7 @@ Individual accounts used for professional or organizational work still require a
 
 For organizational access, paid use, or commercial terms, visit:
 
-**https://wirespeedcomputing.com**
+**https://www.wirespeedcomputers.com/wirespeed-contact**
 
 ## Donations
 
