@@ -47,7 +47,7 @@ license:
   personal_use: permitted
   organizational_use: license-required
   commercial_use: license-required
-  licensing_url: https://wirespeedcomputing.com
+  licensing_url: https://www.wirespeedcomputers.com/wirespeed-contact
   usage_gate: ../../USAGE-GATE.md
 ---
 ```
