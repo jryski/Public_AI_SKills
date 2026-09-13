@@ -2,7 +2,7 @@
 
 Thanks for your interest in improving Public AI Skills.
 
-This repository is source-available for personal use, not open source. Contributions must preserve that licensing model.
+This repository is open source under CC BY 4.0. Contributions are accepted under the same license.
 
 ## Contribution status
 
@@ -17,9 +17,7 @@ By submitting a contribution, you represent that:
 
 ## Inbound rights
 
-By submitting a contribution, you grant Jesse Ryski and successors a perpetual, worldwide, non-exclusive, royalty-free right to use, copy, modify, publish, distribute, sublicense, and commercially license the contribution as part of this project or related commercial offerings.
-
-This inbound grant does not remove your own rights to use your original contribution elsewhere, but it allows the project owner to maintain the personal-use and paid organizational-use model without later rights conflicts.
+By submitting a contribution you certify it under the Developer Certificate of Origin; see `DCO.md`. Sign off each commit with `git commit -s`. You keep all rights to your own work, and your contribution is published under the repository license.
 
 ## AI-generated contributions
 
@@ -39,6 +37,6 @@ A good skill should:
 - be written clearly enough for a cold reader or AI system to apply;
 - include examples when possible.
 
-## Licensing reminder
+## License
 
-Public access to this repository does not grant organizational or commercial-use rights. See `LICENSE.md` and `USAGE-GATE.md`.
+Everything in this repository, including contributions, is CC BY 4.0. See `LICENSE`.

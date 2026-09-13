@@ -41,13 +41,13 @@ categories:
   - troubleshooting
   - systems-reasoning
 license:
-  name: Xillennial Personal Use License 1.0
+  name: CC-BY-4.0
   source_available: true
-  open_source: false
+  open_source: true
   personal_use: permitted
-  organizational_use: license-required
-  commercial_use: license-required
-  licensing_url: https://wirespeedcomputing.com
+  organizational_use: permitted
+  commercial_use: permitted
+  license_url: https://creativecommons.org/licenses/by/4.0/
   usage_gate: ../../USAGE-GATE.md
 ---
 ```
@@ -104,11 +104,11 @@ Avoid:
 Each skill should either include license metadata in front matter or a short notice near the top:
 
 ```markdown
-> Personal use only. Organizational or commercial use requires a written license.
-> See ../../LICENSE.md and ../../USAGE-GATE.md.
+> Licensed CC BY 4.0. Free for any use with attribution.
+> See ../../LICENSE and ../../USAGE-GATE.md.
 ```
 
-The repository-level `LICENSE.md` controls the legal permissions.
+The repository-level `LICENSE` controls the legal permissions.
 
 ## Versioning
 

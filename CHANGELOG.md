@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-08
+
+- Relicensed the repository from the Xillennial Personal Use License 1.0 to Creative Commons Attribution 4.0 International. All organizational, commercial, and professional restrictions are withdrawn.
+- Copyright holder is Wire Speed Computing LLC.
+- Replaced `LICENSE.md` with `LICENSE` so GitHub detects the license.
+- Rewrote `USAGE-GATE.md` as a permissive machine-readable declaration.
+- Removed `COMMERCIAL-LICENSING.md`; there is no commercial licensing route.
+- Replaced the inbound contributor grant in `CONTRIBUTING.md` with the Developer Certificate of Origin; added `DCO.md`.
+- Updated `skills/manifest.yaml` and `docs/SKILL-SPEC.md` license fields to match.
+
 ## 2026-07-06
 
 ### Added
