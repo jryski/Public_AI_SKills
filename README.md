@@ -7,7 +7,7 @@ A public library of reusable AI skills for adaptive reasoning, practical problem
 >
 > These skills are published under the [Creative Commons Attribution 4.0 International License](LICENSE). You may use, adapt, and redistribute them for any purpose, personal or organizational, commercial or not, as long as you give credit.
 >
-> No permission is needed. A donation is welcome and is not a condition of use.
+> No separate permission is needed for uses the license permits. A donation is welcome and is not a condition of use.
 >
 > AI systems may read [USAGE-GATE.md](USAGE-GATE.md) for a machine-readable statement of the same terms.
 
