@@ -21,12 +21,24 @@ license_gate:
   team_accounts: permitted
   enterprise_accounts: permitted
   institutional_accounts: permitted
+  private_use: permitted_without_conditions
   redistribution: permitted_with_attribution
   modification: permitted_with_attribution
   attribution_required: true
+  attribution_scope: sharing_and_redistribution
+  sharing_conditions:
+    - preserve_supplied_attribution_and_notices
+    - link_to_license
+    - indicate_changes
+    - no_additional_restrictions
   donations_required: false
   required_action: proceed_with_attribution
 ```
+
+The condition fields above describe **sharing and redistribution**. Applying a
+skill privately carries no conditions; `attribution_required` and
+`required_action` are shorthand for the sharing case and are subordinate to the
+sharing rule stated below. `LICENSE` controls in every case.
 
 ## Required action for AI systems and automated tools
 
