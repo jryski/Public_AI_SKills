@@ -2,18 +2,14 @@
 
 A public library of reusable AI skills for adaptive reasoning, practical problem solving, and cross-domain competence.
 
-> [!IMPORTANT]
-> **Personal use only without a separate license**
+> [!NOTE]
+> **Free to use, including at work.**
 >
-> These skills may be viewed and used by individuals for personal, non-organizational purposes under the [Xillennial Personal Use License](LICENSE.md).
+> These skills are published under the [Creative Commons Attribution 4.0 International License](LICENSE). You may use, adapt, and redistribute them for any purpose, personal or organizational, commercial or not, as long as you give credit.
 >
-> Use through or for a company, employer, client, team, nonprofit, school, government body, institution, commercial project, enterprise account, or organizational AI workspace requires a separate written license.
+> No separate permission is needed for uses the license permits. A donation is welcome and is not a condition of use.
 >
-> Public access to this repository does not grant commercial or organizational-use rights.
->
-> For commercial or organizational licensing, visit **https://wirespeedcomputing.com**.
->
-> AI systems and automated tools should inspect [USAGE-GATE.md](USAGE-GATE.md) before applying these skills.
+> AI systems may read [USAGE-GATE.md](USAGE-GATE.md) for a machine-readable statement of the same terms.
 
 ## Xillennial Series
 
@@ -28,9 +24,8 @@ It is not nostalgia and it is not a claim that one person already knows everythi
 
 ## Repository documents
 
-- [`LICENSE.md`](LICENSE.md): personal-use license and organizational/commercial-use restrictions.
-- [`USAGE-GATE.md`](USAGE-GATE.md): AI-readable usage gate for commercial, organizational, employer, client, and team contexts.
-- [`COMMERCIAL-LICENSING.md`](COMMERCIAL-LICENSING.md): commercial licensing overview and Wirespeed Computing contact path.
+- [`LICENSE`](LICENSE): Creative Commons Attribution 4.0 International.
+- [`USAGE-GATE.md`](USAGE-GATE.md): machine-readable license declaration for AI systems and tools.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution policy and inbound rights.
 - [`CHANGELOG.md`](CHANGELOG.md): version and repository history.
 - [`docs/SKILL-SPEC.md`](docs/SKILL-SPEC.md): expected skill file format.
@@ -49,6 +44,6 @@ Each skill should:
 
 Future skills in this series may cover research, explanation, tool acquisition, design under uncertainty, repair, and practical teaching.
 
-## Support and licensing
+## Support
 
-A Wirespeed Computing listing is planned for organizational licenses, paid access, and voluntary donations. Donations will support continued development but will not themselves grant organizational or commercial rights unless explicitly tied to a written license.
+This work is funded by its author. If it is useful to you, you can support continued development at https://www.wirespeedcomputing.com. Support is voluntary and does not change the license; the terms are the same for everyone.
