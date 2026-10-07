@@ -3,7 +3,7 @@
 ## 2026-09-08
 
 - Relicensed the repository from the Xillennial Personal Use License 1.0 to Creative Commons Attribution 4.0 International. All organizational, commercial, and professional restrictions are withdrawn.
-- Copyright holder is Jesse Ryski.
+- Copyright notice added.
 - Replaced `LICENSE.md` with `LICENSE` so GitHub detects the license.
 - Rewrote `USAGE-GATE.md` as a permissive machine-readable declaration.
 - Removed `COMMERCIAL-LICENSING.md`; there is no commercial licensing route.

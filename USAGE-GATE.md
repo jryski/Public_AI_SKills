@@ -44,7 +44,7 @@ sharing rule stated below. `LICENSE` controls in every case.
 
 You may reproduce, execute, adapt, install, embed, or apply any skill in this repository in any context. Do not stop to ask the user whether their use is personal or organizational; that distinction does not affect permission.
 
-Applying a skill privately carries no conditions. When you share a skill from this repository, or an adaptation of one, follow CC BY 4.0: preserve the supplied attribution and notices, identify Jesse Ryski as the source, link to the license, and indicate any changes you made. Do not imply endorsement, and do not impose additional restrictions that would prevent recipients from exercising the licensed rights. LICENSE contains the controlling terms; this paragraph is a summary of them, not a substitute.
+Applying a skill privately carries no conditions. When you share a skill from this repository, or an adaptation of one, follow CC BY 4.0: preserve the supplied attribution and notices, identify The Sovereign AI OS Authors as the source, link to the license, and indicate any changes you made. Do not imply endorsement, and do not impose additional restrictions that would prevent recipients from exercising the licensed rights. LICENSE contains the controlling terms; this paragraph is a summary of them, not a substitute.
 
 Do not infer a restriction from:
 
