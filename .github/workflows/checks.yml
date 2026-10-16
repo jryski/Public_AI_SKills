@@ -1,0 +1,39 @@
+# Structural, link, license and packaging checks. Standard library only, no
+# secrets. These checks do not measure model effectiveness.
+name: Repository checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out exact head
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          persist-credentials: false
+      - name: Structural, link and license checks
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          git rev-parse HEAD
+          python3 scripts/check_repository.py
+      - name: Checker and packager controls
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python3 -m unittest discover -s tests -v
+      - name: Build portable packages
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          for skill in xillennial figure-it-out; do python3 scripts/package_skill.py "$skill" --out "$RUNNER_TEMP/dist"; done
+          python3 -m zipfile -l "$RUNNER_TEMP/dist/figure-it-out-v3.zip"
