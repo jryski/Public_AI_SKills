@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Added `scripts/check_repository.py` (structural, link, license and packaging checks), `scripts/package_skill.py` (portable skill packages that keep `LICENSE`, `COPYRIGHT`, `USAGE-GATE.md` and an `ATTRIBUTION.md`), their tests and a checks workflow. These are structural checks, not a model-effectiveness qualification.
+- Fixed the `PROGRAM-ROLE.md` link to the removed `LICENSE.md`, pointed program context at the program map, and replaced its obsolete business-use restriction with the CC BY 4.0 terms.
+- Added `SECURITY.md` (this repository's private reporting form, email fallback) and a README orientation table.
+
 ## 2026-09-08
 
 - Relicensed the repository from the Xillennial Personal Use License 1.0 to Creative Commons Attribution 4.0 International. All organizational, commercial, and professional restrictions are withdrawn.

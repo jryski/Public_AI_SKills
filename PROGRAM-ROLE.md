@@ -2,8 +2,8 @@
 
 > **Program:** Sovereign AI OS ecosystem  
 > **Role class:** reusable model- and runtime-independent behavior packages  
-> **Program context:** [`Sovereign AI OS`](https://github.com/jryski/sovereign-memory-core/blob/main/docs/ecosystem/SOVEREIGN_AI_OS.md)  
-> **Usage authority:** [`USAGE-GATE.md`](USAGE-GATE.md) and [`LICENSE.md`](LICENSE.md)
+> **Program context:** [`Sovereign AI OS program map`](https://github.com/WireSpeedComputing/sovereign-ai-os)  
+> **Usage terms:** [`LICENSE`](LICENSE) (CC BY 4.0, controlling) and [`USAGE-GATE.md`](USAGE-GATE.md) (machine-readable summary)
 
 ## Mission
 
@@ -16,7 +16,7 @@ Skills make useful behavior portable. They do not make the model authoritative, 
 - skill specifications and manifests;
 - reusable behavioral procedures;
 - examples and evaluation guidance;
-- versioning, licensing, and usage gates;
+- versioning, licensing notices, and the machine-readable usage statement;
 - generic techniques that remain useful across models and runtimes.
 
 ## This repository does not own
@@ -25,9 +25,8 @@ Skills make useful behavior portable. They do not make the model authoritative, 
 - planning-card state;
 - user or agent identity;
 - database authorization or RLS;
-- model qualification;
-- runtime tool wiring;
-- permission to use a skill in an organizational or commercial context contrary to the repository license.
+- model qualification or cross-model effectiveness claims;
+- runtime tool wiring or tool permissions.
 
 ## Planning and work-plane relationship
 
@@ -39,16 +38,16 @@ A runtime should combine:
 accepted card and scope
 + trusted identity and capability
 + qualified model route
-+ licensed skill behavior
++ selected skill behavior
 + bounded integrations
 + review and evidence requirements
 ```
 
 The skill remains replaceable and versioned. The durable result and evidence belong to the appropriate deployment store or repository.
 
-## Business use
+## Use and sharing
 
-Organizational, commercial, employer, client, team, school, government, nonprofit, and enterprise use remains subject to this repository's explicit usage gate and licensing terms. Inclusion in the Sovereign AI OS ecosystem does not waive those terms.
+All skills are licensed under CC BY 4.0. Personal, organizational and commercial use are permitted, including employer, client, team, school, government, nonprofit and enterprise use, with no separate permission. When sharing a skill or an adaptation, keep the supplied attribution and notices, link the license and indicate changes; [`scripts/package_skill.py`](scripts/package_skill.py) builds a portable package that carries `LICENSE`, `COPYRIGHT`, `USAGE-GATE.md` and an `ATTRIBUTION.md`. [`LICENSE`](LICENSE) controls.
 
 ## Data boundary
 
@@ -56,4 +55,4 @@ Use synthetic examples. Never commit private prompts, household or company recor
 
 ## Agent handoff rule
 
-Before applying a skill, inspect its version, trigger conditions, exclusions, evidence expectations, and usage license. Do not treat model familiarity with a similar technique as evidence that the accepted skill contract was followed.
+Before applying a skill, inspect its version, trigger conditions, exclusions and evidence expectations. Do not treat model familiarity with a similar technique as evidence that the accepted skill contract was followed.
