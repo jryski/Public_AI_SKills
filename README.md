@@ -18,7 +18,7 @@ the source that supports it.
 
 | Question | Answer |
 | --- | --- |
-| What is this? | Versioned, model-independent working methods for AI assistants ([skills](#skills), [manifest](skills/manifest.yaml)). A skill does not grant tool access, permission to change settings, or authority from material it reads ([program role](PROGRAM-ROLE.md)). |
+| What is this? | Versioned, plain-text working methods for AI assistants, not tied to one model or runtime ([skills](#skills), [manifest](skills/manifest.yaml)). A skill does not grant tool access, permission to change settings, or authority from material it reads ([program role](PROGRAM-ROLE.md)). |
 | Where does it fit? | The working-methods component of the [Sovereign AI OS program map](https://github.com/WireSpeedComputing/sovereign-ai-os) ([component routes](https://github.com/WireSpeedComputing/sovereign-ai-os/blob/main/ROUTES.md)). It needs no other component. |
 | Prerequisites | Git, Python 3.11 or later for the checks (standard library only), and an assistant that accepts user-supplied instructions. Use a fabricated problem, with no personal records or production tool permissions. |
 | Exact commands | `git clone https://github.com/jryski/Public_AI_SKills.git`, `cd Public_AI_SKills`, `python scripts/check_repository.py`, `python -m unittest discover -s tests -v`, then `python scripts/package_skill.py figure-it-out --out dist`. |
@@ -45,11 +45,12 @@ It is not nostalgia and it is not a claim that one person already knows everythi
 
 ## Repository documents
 
-- [`LICENSE`](LICENSE): Creative Commons Attribution 4.0 International.
+- [`LICENSE`](LICENSE): Creative Commons Attribution 4.0 International ([legal code](https://creativecommons.org/licenses/by/4.0/legalcode)).
 - [`USAGE-GATE.md`](USAGE-GATE.md): machine-readable license declaration for AI systems and tools.
 - [`COPYRIGHT`](COPYRIGHT): copyright and license notice to keep when sharing.
 - [`SECURITY.md`](SECURITY.md): private vulnerability reporting.
 - [`PROGRAM-ROLE.md`](PROGRAM-ROLE.md): what this repository owns in the program.
+- [`CURRENT-STATUS.md`](CURRENT-STATUS.md): publication status and the limits of instructions.
 - [`scripts/check_repository.py`](scripts/check_repository.py) and [`scripts/package_skill.py`](scripts/package_skill.py): structural checks and portable packaging.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution policy and inbound rights.
 - [`CHANGELOG.md`](CHANGELOG.md): version and repository history.

@@ -4,6 +4,8 @@
 
 - Added `scripts/check_repository.py` (structural, link, license and packaging checks), `scripts/package_skill.py` (portable skill packages that keep `LICENSE`, `COPYRIGHT`, `USAGE-GATE.md` and an `ATTRIBUTION.md`), their tests and a checks workflow. These are structural checks, not a model-effectiveness qualification.
 - Fixed the `PROGRAM-ROLE.md` link to the removed `LICENSE.md`, pointed program context at the program map, and replaced its obsolete business-use restriction with the CC BY 4.0 terms.
+- Added the CC BY 4.0 legal-code link (https://creativecommons.org/licenses/by/4.0/legalcode) to the usage gate, manifest, skill spec and package `ATTRIBUTION.md`; the checker now requires it in packages.
+- Added `CURRENT-STATUS.md` (rebuilt from the earlier status draft) and removed wording that implied skills work equally across models.
 - Added `SECURITY.md` (this repository's private reporting form, email fallback) and a README orientation table.
 
 ## 2026-09-08

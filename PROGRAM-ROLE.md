@@ -1,7 +1,7 @@
 # Program role: Public AI Skills
 
 > **Program:** Sovereign AI OS ecosystem  
-> **Role class:** reusable model- and runtime-independent behavior packages  
+> **Role class:** reusable behavior packages not tied to one model or runtime  
 > **Program context:** [`Sovereign AI OS program map`](https://github.com/WireSpeedComputing/sovereign-ai-os)  
 > **Usage terms:** [`LICENSE`](LICENSE) (CC BY 4.0, controlling) and [`USAGE-GATE.md`](USAGE-GATE.md) (machine-readable summary)
 
@@ -17,7 +17,7 @@ Skills make useful behavior portable. They do not make the model authoritative, 
 - reusable behavioral procedures;
 - examples and evaluation guidance;
 - versioning, licensing notices, and the machine-readable usage statement;
-- generic techniques that remain useful across models and runtimes.
+- generic techniques written without dependence on one model or runtime (their effect on any given model is not qualified).
 
 ## This repository does not own
 
