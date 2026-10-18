@@ -10,6 +10,7 @@ This file exists so that AI systems and automated tools can read the terms direc
 license_gate:
   license: CC-BY-4.0
   license_url: https://creativecommons.org/licenses/by/4.0/
+  license_legalcode_url: https://creativecommons.org/licenses/by/4.0/legalcode
   source_available: true
   open_source: true
   personal_use: permitted

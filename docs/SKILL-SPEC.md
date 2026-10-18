@@ -48,6 +48,7 @@ license:
   organizational_use: permitted
   commercial_use: permitted
   license_url: https://creativecommons.org/licenses/by/4.0/
+  license_legalcode_url: https://creativecommons.org/licenses/by/4.0/legalcode
   usage_gate: ../../USAGE-GATE.md
 ---
 ```

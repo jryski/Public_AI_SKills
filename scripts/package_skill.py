@@ -29,6 +29,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY_URL = "https://github.com/jryski/Public_AI_SKills"
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+LEGALCODE_URL = "https://creativecommons.org/licenses/by/4.0/legalcode"
 NOTICE_FILES = ("LICENSE", "COPYRIGHT", "USAGE-GATE.md")
 FIXED_TIME = (2026, 1, 1, 0, 0, 0)
 
@@ -72,7 +73,7 @@ def attribution(name: str, version: str, path: str, commit: str) -> str:
 - Work: `{name}` skill, version {version}
 - Source: {REPOSITORY_URL}/blob/{commit}/{path}
 - Authors: The Sovereign AI OS Authors (see COPYRIGHT)
-- License: Creative Commons Attribution 4.0 International (CC BY 4.0), {LICENSE_URL}
+- License: Creative Commons Attribution 4.0 International (CC BY 4.0), {LICENSE_URL} (legal code: {LEGALCODE_URL})
 - Changes: none. This package contains the file unchanged from the source commit above.
 
 Personal, organizational and commercial use are permitted. If you share this
