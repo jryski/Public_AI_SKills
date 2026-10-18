@@ -177,15 +177,41 @@ def check_packages(root: Path) -> list[str]:
                         errors.append(f"package {name}: missing {member}")
                 if f"{name}/ATTRIBUTION.md" in names:
                     text = package.read(f"{name}/ATTRIBUTION.md").decode("utf-8")
-                    if "CC BY 4.0" not in text or "creativecommons.org/licenses/by/4.0" not in text:
-                        errors.append(f"package {name}: attribution lacks license name or link")
+                    if "CC BY 4.0" not in text or "creativecommons.org/licenses/by/4.0" not in text or "/legalcode" not in text:
+                        errors.append(f"package {name}: attribution lacks license name, deed link or legal-code link")
                 if f"{name}/LICENSE" in names and package.read(f"{name}/LICENSE") != (root / "LICENSE").read_bytes():
                     errors.append(f"package {name}: LICENSE differs from repository LICENSE")
     return errors
 
 
+# Wording that would assert unqualified model effectiveness. History files may
+# quote it; current documents and skills may not.
+EFFECTIVENESS_CLAIMS = (
+    "model-independent",
+    "works with any model",
+    "works on any model",
+    "works across models",
+    "works across all models",
+    "useful across models",
+    "proven across models",
+)
+
+
+def check_claims(root: Path) -> list[str]:
+    errors = []
+    for path in sorted(root.rglob("*.md")):
+        rel = path.relative_to(root).as_posix()
+        if rel.startswith((".git/", "dist/")) or rel == "CHANGELOG.md":
+            continue
+        text = path.read_text(encoding="utf-8").lower()
+        for phrase in EFFECTIVENESS_CLAIMS:
+            if phrase in text:
+                errors.append(f"{rel}: unqualified effectiveness claim '{phrase}'")
+    return errors
+
+
 def run(root: Path) -> list[str]:
-    return check_skills(root) + check_links(root) + check_license(root) + check_packages(root)
+    return check_skills(root) + check_links(root) + check_license(root) + check_packages(root) + check_claims(root)
 
 
 def main(argv: list[str] | None = None) -> int:

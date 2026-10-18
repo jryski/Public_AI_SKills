@@ -65,8 +65,23 @@ class RepositoryChecks(unittest.TestCase):
             attribution = package.read("figure-it-out/ATTRIBUTION.md").decode()
             self.assertIn("/blob/" + "a" * 40 + "/skills/figure-it-out/SKILL.md", attribution)
             self.assertIn("commercial use are permitted", attribution)
+            self.assertIn("https://creativecommons.org/licenses/by/4.0/legalcode", attribution)
             self.assertEqual(package.read("figure-it-out/SKILL.md"),
                              (self.root / "skills/figure-it-out/SKILL.md").read_bytes())
+
+    def test_effectiveness_claim_fails(self):
+        self.edit("README.md", "## Support", "## Support\n\nThis skill works across all models.\n")
+        self.assertTrue(any("effectiveness claim" in e for e in check_repository.run(self.root)))
+
+    def test_attribution_without_legal_code_fails(self):
+        self.edit("scripts/package_skill.py", " (legal code: {LEGALCODE_URL})", "")
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("pkg_copy", self.root / "scripts/package_skill.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        archive = module.build("xillennial", Path(self.temp.name) / "d", commit="d" * 40, root=self.root)
+        with zipfile.ZipFile(archive) as package:
+            self.assertNotIn("/legalcode", package.read("xillennial/ATTRIBUTION.md").decode())
 
     def test_package_is_deterministic(self):
         first = package_skill.build("xillennial", Path(self.temp.name) / "a", commit="b" * 40, root=self.root)
